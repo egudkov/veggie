@@ -1,0 +1,65 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  color: #3c3c3c;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(../img/header-bg.jpg) no-repeat center top / cover;
+  padding-bottom: 367px;
+}
+
+.header-container {
+  width: 620px;
+  margin-left: 1156px;
+  display: table;
+}
+
+nav {
+  margin-top: 53px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+nav li {
+  float: left;
+  display: block;
+  margin-right: 14px;
+  padding: 16px 24px;
+  font-size: 18px;
+}
+
+nav li:first-child {
+  border: 0.8px solid #3c3c3c;
+}
+
+nav a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+.title-container {
+  width: 524px;
+  margin-top: 418px;
+  text-align: center;
+}
+
+.title-container h1 {
+  margin: 0;
+  font-size: 40.5px;
+  font-weight: 300;
+  letter-spacing: -0.8px;
+}
+
+.title-container img {
+  margin-top: 41px;
+}
