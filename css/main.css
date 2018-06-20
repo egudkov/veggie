@@ -49,7 +49,7 @@ nav li:not(:last-child) {
   margin-right: 14px;
 }
 
-nav li:first-child {
+.menu-selected {
   border: 0.8px solid #3c3c3c;
 }
 
