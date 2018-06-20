@@ -30,10 +30,6 @@ header {
   float: right;
 }
 
-.nav-container {
-  float: left;
-}
-
 nav {
   margin-top: 53px;
 }
@@ -67,7 +63,6 @@ nav a {
   width: 524px;
   margin-top: 315px;
   text-align: center;
-  float: left;
 }
 
 .title-container h1,
