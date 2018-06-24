@@ -41,35 +41,35 @@ header {
   width: 620px;
 }
 
-nav {
+.nav {
   margin-top: 53px;
 }
 
-nav ul {
+.nav ul {
   padding: 0;
   margin: 0;
   display: flex;
   list-style-type: none;
 }
 
-nav li {
+.nav li {
   font-size: 18px;
   box-sizing: border-box;
-  width: 100px;
+  padding: 0px 24px;
   height: 50px;
   line-height: 50px;
   text-align: center;
 }
 
-nav li:not(:last-child) {
+.nav li:not(:last-child) {
   margin-right: 14px;
 }
 
-.menu-selected {
+.nav-selected {
   border: 0.8px solid #3c3c3c;
 }
 
-nav a {
+.nav a {
   color: #3c3c3c;
   text-decoration: none;
 }
