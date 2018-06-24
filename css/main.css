@@ -165,12 +165,18 @@ header {
 .specials-items {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+}
+
+.special-item {
+  width: 496px;
+  display: flex;
 }
 
 .specials-item-text {
   width: 248px;
+  height: 248px;
   background-color: #f8f8f8;
+  text-align: center;
 }
 
 .about {
