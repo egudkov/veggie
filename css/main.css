@@ -95,11 +95,20 @@ header {
   line-height: 1.37;
 }
 
+.title-container h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 .title-container p {
   font-size: 30.5px;
   font-weight: 300;
   line-height: 1.79;
   letter-spacing: -0.6px;
+}
+
+.title-container p.regular-text {
+  font-size: 16px;
 }
 
 .title-container img {
@@ -204,4 +213,60 @@ header {
 
 footer {
   background: url('../img/footer-bg.jpg') no-repeat center top / cover;
+  height: 967px;
+}
+
+.contact-title {
+  width: 570px;
+  margin-top: 69px;
+}
+
+footer form {
+  margin-top: 102px;
+  width: 100%;
+}
+
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #3c3c3c;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 72px;
+}
+
+footer input[name="name"] {
+  width: 254px;
+}
+
+footer input[name="email"] {
+  width: 254px;
+}
+
+footer input[name="message"] {
+  width: 100%;
+}
+
+.contact-container {
+  text-align: left;
+}
+
+.contact-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-item {
+  width: 216px;
+}
+
+.contact-item p {
+  margin: 0;
 }
