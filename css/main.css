@@ -178,6 +178,10 @@ header {
   margin-top: 248px;
 }
 
+.menu-section {
+  padding-bottom: 85px;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
