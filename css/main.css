@@ -88,19 +88,18 @@ header {
   text-decoration: none;
 }
 
-.header-title {
-  width: 524px;
-}
 
-
-/* Title */
+/* Heading */
 
 .heading {
   text-align: center;
+  width: 606px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.heading h1,
-.heading h2 {
+.heading > h1 {
   margin: 0;
   font-size: 40.5px;
   font-weight: 300;
@@ -125,15 +124,11 @@ header {
 }
 
 .heading img {
-  margin-top: 41px;
+  margin-top: 32px;
 }
 
 
 /*  */
-
-.specials-title {
-  margin-top: 80px;
-}
 
 #promo {
   background: url(../img/promo-bg-cut.jpg) no-repeat center top / cover;
@@ -204,11 +199,6 @@ header {
   justify-content: space-between;
 }
 
-.about-title {
-  width: 606px;
-  margin-top: 248px;
-}
-
 .menu-section {
   padding-bottom: 85px;
 }
@@ -236,11 +226,6 @@ header {
 footer {
   background: url('../img/footer-bg.jpg') no-repeat center top / cover;
   height: 967px;
-}
-
-.contact-title {
-  width: 570px;
-  margin-top: 69px;
 }
 
 footer form {
