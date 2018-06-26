@@ -192,6 +192,23 @@ div {
   height: 248px;
   background-color: #f8f8f8;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.specials-item-text h2 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: -0.4px;
+}
+
+.specials-item-text p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.13;
+  letter-spacing: -0.3px;
 }
 
 
