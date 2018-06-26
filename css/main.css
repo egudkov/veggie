@@ -37,9 +37,9 @@ div {
 }
 
 
-/* Header */
+/* 'Header' section */
 
-header {
+#header {
   background: url(../img/header-bg.jpg) no-repeat center top / cover;
   height: 100vh;
 }
@@ -128,7 +128,7 @@ header {
 }
 
 
-/* Promo */
+/* 'Promo' section */
 
 #promo {
   background: url(../img/promo-bg-cut.jpg) no-repeat center top / cover;
@@ -168,7 +168,10 @@ header {
   left: 8px;
 }
 
-.specials {
+
+/* 'Specials' section */
+
+#specials {
   padding-bottom: 104px;
 }
 
@@ -189,7 +192,10 @@ header {
   text-align: center;
 }
 
-.about {
+
+/* 'About' section */
+
+#about {
   background-color: #eeefef;
 }
 
@@ -198,7 +204,10 @@ header {
   justify-content: space-between;
 }
 
-.menu-section {
+
+/* 'Menu' section */
+
+#menu-section {
   padding-bottom: 85px;
 }
 
@@ -221,6 +230,9 @@ header {
   letter-spacing: -0.3px;
   margin: 7px 0 0 0;
 }
+
+
+/* 'Contact' section */
 
 footer {
   background: url('../img/footer-bg.jpg') no-repeat center top / cover;
