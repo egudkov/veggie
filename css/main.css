@@ -272,7 +272,6 @@ div {
 
 footer {
   background: url('../img/footer-bg.jpg') no-repeat center top / cover;
-  height: 967px;
   padding-bottom: 35px;
 }
 
@@ -291,6 +290,7 @@ footer {
   font-size: 18px;
   font-weight: normal;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .contact-data {
@@ -303,13 +303,15 @@ footer {
 }
 
 .contact-item p {
-  margin: 0;
+  margin: 16px 0 0 0;
   font-size: 16px;
   line-height: 1.5;
 }
 
 form {
   margin-top: 102px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-inputs {
@@ -326,11 +328,27 @@ footer input {
   border-bottom: 1px solid #3c3c3c;
   font-size: 18px;
   font-style: italic;
+  padding: 12px 20px;
+  box-sizing: border-box;
 }
 
 footer input[name="message"] {
   width: 100%;
   margin-top: 72px;
+}
+
+.btn {
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 0px 24px;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 0.8px solid #3c3c3c;
+  background-color: transparent;
+  margin-top: 53px;
+  align-self: center;
 }
 
 .social-media {
