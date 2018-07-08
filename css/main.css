@@ -43,6 +43,7 @@ div {
 #header {
   background: url(../img/header-bg.jpg) no-repeat center top / cover;
   height: 100vh;
+  min-height: 720px;
 }
 
 .header-inner {
